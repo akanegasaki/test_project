@@ -15,17 +15,10 @@ public class NoFairLockTest {
         //创建费公平锁
         ReentrantLock lock = new ReentrantLock(false);
 
-        ReentrantLock lock1 = new ReentrantLock(true);
-
-        lock1.lock();
-
         try {
 
             //加锁
             lock.lock();
-
-
-            lock1.lock();
 
             lock.lockInterruptibly();
 
