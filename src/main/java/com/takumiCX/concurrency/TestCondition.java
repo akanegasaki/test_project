@@ -1,7 +1,5 @@
 package com.takumiCX.concurrency;
 
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author: takumiCX
@@ -12,13 +10,20 @@ public class TestCondition {
 
     public static void main(String[] args) throws InterruptedException {
 
-        ReentrantLock lock = new ReentrantLock();
+//        ReentrantLock lock = new ReentrantLock();
+//
+//        Condition condition = lock.newCondition();
+//
+//        condition.await();
+//
+//        condition.signal();
 
-        Condition condition = lock.newCondition();
+        int t=1;
 
-        condition.await();
+        System.out.println(t!=(t=7));
 
-        condition.signal();
+        System.out.println(t);
+
 
     }
 }

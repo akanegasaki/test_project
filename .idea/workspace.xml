@@ -2,64 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="823559cd-db87-4a12-974e-2fec6d00cec1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/TestCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/atomics/AtomicReferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/atomics/TestAtomics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/blocking_queue/MyBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/futrue/CallableTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/ReenterLock_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronize/EventStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronize/eventstorage/MyEventStorageTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronizer/BaseBoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronizer/BoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronizer/BufferEmptyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronizer/BufferFullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronizer/GrumpyBoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronizer/SleepyBoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/thread/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/thread/JoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/thread/OrderThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/thread/TestReentrantLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/threadpool/TestThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/threadpool/ThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/threadpool/WorkPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/volatile_/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/blocking_queue/ArrayBlockingQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/lock_free/LockFreeConcurrentQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/lock_free/LockFreeConcurrentStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/queue/ConcurrentLinkedQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/NoFairLockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/atomics/TestAtomics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/blocking_queue/MyBlockingQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/futrue/CallableTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/reentrantlock/ReenterLock_A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/reentrantlock/TestDeadLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/reentrantlock/TestDeadLock2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/reentrantlock/TestDeadLock3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/reentrantlock/TestDeadLock4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/synchronize/EventStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/synchronize/eventstorage/MyEventStorageTest.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/thread/JoinTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/thread/OrderThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/thread/TestReentrantLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/threadpool/TestThreadPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/threadpool/ThreadPoolDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/threadpool/WorkPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akane/test/volatile_/TestVolatile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/blocking_queue/MyBlockingQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/akane/test/blocking_queue/MyBlockingQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/ReenterLock_A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/ReenterLock_A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/TestDeadLock2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/TestDeadLock2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/TestDeadLock3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/TestDeadLock3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/TestDeadLock4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/TestDeadLock4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/threadpool/TestThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/akane/test/threadpool/TestThreadPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/threadpool/ThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/akane/test/threadpool/ThreadPoolDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/volatile_/TestVolatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/akane/test/volatile_/TestVolatile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_project_0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test-concurrent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/TestCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/TestCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/ReenterLock_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/ReenterLock_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/atomics/TestAtomics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/blocking_queue/MyBlockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/blocking_queue/consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/blocking_queue/producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/futrue/CallableTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/ReenterLock_A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/TestDeadLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/TestDeadLock2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/TestDeadLock3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/reentrantlock/TestDeadLock4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/synchronize/EventStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/thread/JoinTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/thread/OrderThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/thread/TestReentrantLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/threadpool/MyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/threadpool/TestThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/threadpool/ThreadPoolDemo$MyTast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/threadpool/ThreadPoolDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/threadpool/WorkPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/volatile_/TestVolatile$PlusTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/akane/test/volatile_/TestVolatile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-concurrent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test-concurrent.iml" afterDir="false" />
     </list>
     <ignored path="test_project_0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,239 +62,123 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <file leaf-file-name="ConcurrentLinkedQueueTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/queue/ConcurrentLinkedQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="219" column="26" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="26" />
-              <folding>
-                <element signature="e#5562#5563#0" expanded="true" />
-                <element signature="e#5614#5615#0" expanded="true" />
-                <element signature="e#6849#6850#0" expanded="true" />
-                <element signature="e#6907#6908#0" expanded="true" />
-                <element signature="e#8176#8177#0" expanded="true" />
-                <element signature="e#8216#8217#0" expanded="true" />
-                <element signature="e#8451#8452#0" expanded="true" />
-                <element signature="e#8515#8516#0" expanded="true" />
-                <element signature="e#9117#9118#0" expanded="true" />
-                <element signature="e#9144#9145#0" expanded="true" />
-                <element signature="e#15850#15851#0" expanded="true" />
-                <element signature="e#15881#15882#0" expanded="true" />
-                <element signature="e#17535#17536#0" expanded="true" />
-                <element signature="e#17577#17578#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/java.util.concurrent.locks.ReentrantLock.FairSync" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.util.concurrent.locks.ReentrantLock.FairSync">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.util.concurrent.locks.ReentrantLock.FairSync</OriginalElement>
-              <nodes>
-                <node x="-395.0" y="-80.0">java.util.concurrent.CountDownLatch</node>
-                <node x="84.28999999999999" y="316.0">java.util.concurrent.locks.ReentrantLock.FairSync</node>
-                <node x="19.289999999999964" y="158.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
-                <node x="200.0" y="390.0">java.util.concurrent.CyclicBarrier</node>
-                <node x="402.5" y="79.0">java.util.concurrent.locks.ReentrantLock</node>
-                <node x="10.5" y="79.0">java.util.concurrent.Semaphore</node>
-                <node x="95.28999999999999" y="237.0">java.util.concurrent.locks.ReentrantLock.Sync</node>
-                <node x="559.5" y="79.0">java.util.concurrent.locks.ReentrantReadWriteLock</node>
-                <node x="147.5" y="79.0">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
-                <node x="639.5" y="0.0">java.util.concurrent.locks.ReadWriteLock</node>
-                <node x="207.0" y="0.0">java.io.Serializable</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="java.util.concurrent.locks.ReentrantReadWriteLock" target="java.util.concurrent.locks.ReadWriteLock">
-                  <point x="50.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.util.concurrent.locks.AbstractOwnableSynchronizer">
-                  <point x="57.5" y="-14.5" />
-                  <point x="191.78999999999996" y="133.0" />
-                  <point x="265.0" y="133.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="java.util.concurrent.locks.ReentrantReadWriteLock" target="java.io.Serializable">
-                  <point x="-50.0" y="-14.5" />
-                  <point x="609.5" y="49.0" />
-                  <point x="311.40000000000003" y="49.0" />
-                  <point x="46.400000000000034" y="14.5" />
-                </edge>
-                <edge source="java.util.concurrent.Semaphore" target="java.io.Serializable">
-                  <point x="0.0" y="-14.5" />
-                  <point x="69.0" y="59.0" />
-                  <point x="241.8" y="59.0" />
-                  <point x="-23.19999999999999" y="14.5" />
-                </edge>
-                <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.io.Serializable">
-                  <point x="-57.5" y="-14.5" />
-                  <point x="76.78999999999996" y="133.0" />
-                  <point x="0.0" y="133.0" />
-                  <point x="0.0" y="49.0" />
-                  <point x="218.59999999999997" y="49.0" />
-                  <point x="-46.400000000000006" y="14.5" />
-                </edge>
-                <edge source="java.util.concurrent.locks.AbstractOwnableSynchronizer" target="java.io.Serializable">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="java.util.concurrent.locks.ReentrantLock" target="java.io.Serializable">
-                  <point x="0.0" y="-14.5" />
-                  <point x="471.0" y="59.0" />
-                  <point x="288.2" y="59.0" />
-                  <point x="23.200000000000017" y="14.5" />
-                </edge>
-                <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock.Sync">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-362.5" y="-52.5" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractOwnableSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-              <folding>
-                <element signature="e#1663#1664#0" expanded="true" />
-                <element signature="e#1708#1709#0" expanded="true" />
-                <element signature="e#2022#2023#0" expanded="true" />
-                <element signature="e#2065#2066#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2164">
-              <caret line="404" column="50" lean-forward="true" selection-start-line="404" selection-start-column="50" selection-end-line="404" selection-end-column="50" />
+            <state relative-caret-position="361">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#22933#22934#0" expanded="true" />
-                <element signature="e#22965#22966#0" expanded="true" />
-                <element signature="e#32644#32645#0" expanded="true" />
-                <element signature="e#32694#32695#0" expanded="true" />
-                <element signature="e#41392#41393#0" expanded="true" />
-                <element signature="e#41449#41450#0" expanded="true" />
-                <element signature="e#42562#42563#0" expanded="true" />
-                <element signature="e#42619#42620#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/java.util.concurrent.locks.AbstractQueuedSynchronizer" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.util.concurrent.locks.AbstractQueuedSynchronizer">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.util.concurrent.locks.AbstractQueuedSynchronizer</OriginalElement>
-              <nodes>
-                <node x="66.5" y="158.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
-                <node x="42.0" y="87.0">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
-                <node x="123.5" y="0.0">java.io.Serializable</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.util.concurrent.locks.AbstractOwnableSynchronizer">
-                  <point x="-57.5" y="-14.5" />
-                  <point x="124.0" y="133.0" />
-                  <point x="117.5" y="133.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.io.Serializable">
-                  <point x="57.5" y="-14.5" />
-                  <point x="239.0" y="133.0" />
-                  <point x="245.5" y="133.0" />
-                  <point x="245.5" y="54.0" />
-                  <point x="210.5" y="54.0" />
-                  <point x="29.0" y="14.5" />
-                </edge>
-                <edge source="java.util.concurrent.locks.AbstractOwnableSynchronizer" target="java.io.Serializable">
-                  <point x="0.0" y="-14.5" />
-                  <point x="117.5" y="54.0" />
-                  <point x="152.5" y="54.0" />
-                  <point x="-29.0" y="14.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-362.5" y="-131.5" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file leaf-file-name="ConcurrentLinkedQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4636">
+              <caret line="295" column="4" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
+              <folding>
+                <element signature="e#8178#8179#0" expanded="true" />
+                <element signature="e#8264#8265#0" expanded="true" />
+                <element signature="e#10037#10038#0" expanded="true" />
+                <element signature="e#10084#10085#0" expanded="true" />
+                <element signature="e#11364#11365#0" expanded="true" />
+                <element signature="e#11395#11396#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountDownLatchTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/thread/CountDownLatchTest.java">
+      <file leaf-file-name="LockFreeConcurrentStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/lock_free/LockFreeConcurrentStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountDownLatch.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3629">
-              <caret line="230" column="39" selection-start-line="230" selection-start-column="13" selection-end-line="230" selection-end-column="39" />
+              <caret line="17" column="54" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="54" />
               <folding>
-                <element signature="e#5229#5230#0" expanded="true" />
-                <element signature="e#5268#5269#0" expanded="true" />
-                <element signature="e#5391#5392#0" expanded="true" />
-                <element signature="e#5448#5449#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReentrantReadWriteLock.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+      <file leaf-file-name="LockFreeConcurrentQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/lock_free/LockFreeConcurrentQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6270">
-              <caret line="368" column="32" selection-start-line="368" selection-start-column="32" selection-end-line="368" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20083">
-              <caret line="1122" column="35" selection-start-line="1122" selection-start-column="35" selection-end-line="1122" selection-end-column="35" />
+            <state relative-caret-position="82">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
-                <element signature="e#36709#36710#0" expanded="true" />
-                <element signature="e#36767#36768#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestLock.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestLock.java">
+      <file leaf-file-name="AtomicReference.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+              <folding>
+                <element signature="e#1707#1708#0" expanded="true" />
+                <element signature="e#1735#1736#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Objects.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4256">
+              <caret line="263" column="27" selection-start-line="263" selection-start-column="27" selection-end-line="263" selection-end-column="27" />
+              <folding>
+                <element signature="e#8972#8973#0" expanded="true" />
+                <element signature="e#9006#9007#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReenterLock_A.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/ReenterLock_A.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCondition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/TestCondition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDeadLock4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoFairLockTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/NoFairLockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -335,6 +194,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>exclusive</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -357,6 +221,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/akane/test/thread/CountDownLatchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akane/test/TestCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akane/test/reentrantlock/TestLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/ReenterLock_A.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/NoFairLockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/blocking_queue/ArrayBlockingQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/ConcurrentLinkedQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/queue/ConcurrentLinkedQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/TestCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/lock_free/LockFreeConcurrentStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/lock_free/LockFreeConcurrentQueue.java" />
       </list>
     </option>
   </component>
@@ -418,11 +290,11 @@
       </PATH>
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1461" />
-    <option name="y" value="-50" />
-    <option name="width" value="1378" />
-    <option name="height" value="748" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1162" />
+    <option name="y" value="-88" />
+    <option name="width" value="1921" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -430,6 +302,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -437,48 +310,12 @@
               <item name="test_project_0" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="test_project_0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_project_0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_project_0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_project_0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_project_0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="reentrantlock" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -518,39 +355,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLock">
+  <component name="RunManager" selected="Application.LockFreeConcurrentQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="AtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akane.test.atomics.AtomicReferenceTest" />
+    <configuration name="LockFreeConcurrentQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.takumiCX.concurrency.lock_free.LockFreeConcurrentQueue" />
       <module name="test-concurrent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akane.test.atomics.*" />
+          <option name="PATTERN" value="com.takumiCX.concurrency.lock_free.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CallableTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akane.test.futrue.CallableTask" />
+    <configuration name="LockFreeConcurrentStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.takumiCX.concurrency.lock_free.LockFreeConcurrentStack" />
       <module name="test-concurrent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akane.test.futrue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MyBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akane.test.blocking_queue.MyBlockingQueue" />
-      <module name="test-concurrent" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.akane.test.blocking_queue.*" />
+          <option name="PATTERN" value="com.takumiCX.concurrency.lock_free.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -562,6 +388,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.akane.test.reentrantlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.takumiCX.concurrency.TestCondition" />
+      <module name="test-concurrent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.takumiCX.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -753,19 +590,19 @@
       <pass-parent-envs>true</pass-parent-envs>
     </configuration>
     <list>
-      <item itemvalue="Application.CallableTask" />
-      <item itemvalue="Application.MyBlockingQueue" />
-      <item itemvalue="Application.AtomicReferenceTest" />
       <item itemvalue="Application.ReenterLock_A" />
       <item itemvalue="Application.TestLock" />
+      <item itemvalue="Application.LockFreeConcurrentStack" />
+      <item itemvalue="Application.TestCondition" />
+      <item itemvalue="Application.LockFreeConcurrentQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LockFreeConcurrentQueue" />
+        <item itemvalue="Application.TestCondition" />
+        <item itemvalue="Application.LockFreeConcurrentStack" />
         <item itemvalue="Application.TestLock" />
         <item itemvalue="Application.ReenterLock_A" />
-        <item itemvalue="Application.AtomicReferenceTest" />
-        <item itemvalue="Application.MyBlockingQueue" />
-        <item itemvalue="Application.CallableTask" />
       </list>
     </recent_temporary>
   </component>
@@ -785,15 +622,30 @@
       <workItem from="1532963069628" duration="586000" />
       <workItem from="1533003345566" duration="7667000" />
       <workItem from="1533084221595" duration="8277000" />
-      <workItem from="1533102192718" duration="4608000" />
+      <workItem from="1533102192718" duration="8381000" />
+      <workItem from="1533169250278" duration="13427000" />
+      <workItem from="1533347544520" duration="745000" />
+      <workItem from="1533429683206" duration="3684000" />
+      <workItem from="1533540644415" duration="8921000" />
+      <workItem from="1533607647010" duration="206000" />
+      <workItem from="1533625906658" duration="9383000" />
+      <workItem from="1533691298921" duration="884000" />
     </task>
+    <task id="LOCAL-00001" summary="aaaaa">
+      <created>1533129832817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533129832817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22996000" />
+    <option name="totallyTimeSpent" value="64019000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-111" width="1920" height="1080" extended-state="0" />
+    <frame x="-1162" y="-88" width="1921" height="877" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -803,39 +655,39 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32977098" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49522293" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.398167" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49694502" visible="true" weight="0.20021299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49009246" visible="true" weight="0.12134114" />
       <window_info anchor="right" id="Database" order="3" weight="0.32977098" />
-      <window_info id="Structure" order="1" sideWeight="0.503055" side_tool="true" visible="true" weight="0.20021299" />
+      <window_info id="Structure" order="1" sideWeight="0.50990754" side_tool="true" visible="true" weight="0.12134114" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6544586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46741346" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3284553" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280363" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.49734512" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info content_ui="combo" id="Project" order="3" weight="0.24961832" />
       <window_info id="Structure" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.49734512" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="right" id="Designer" order="2" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -846,7 +698,7 @@
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Application Servers" order="1" />
       <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.32977098" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -865,6 +717,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaaaa" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -880,11 +736,23 @@
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/lock_free/LockFreeConcurrentQueue.java</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/lock_free/LockFreeConcurrentQueue.java</url>
+          <line>176</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="30" />
+      <option name="time" value="34" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -892,219 +760,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/InterruptedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17955">
-          <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
-          <folding>
-            <element signature="e#36709#36710#0" expanded="true" />
-            <element signature="e#36767#36768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9367">
-          <caret line="493" column="19" selection-start-line="493" selection-start-column="19" selection-end-line="493" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#22933#22934#0" expanded="true" />
-            <element signature="e#22965#22966#0" expanded="true" />
-            <element signature="e#32644#32645#0" expanded="true" />
-            <element signature="e#32694#32695#0" expanded="true" />
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-            <element signature="e#42562#42563#0" expanded="true" />
-            <element signature="e#42619#42620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/futrue/CallableTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/atomics/TestAtomics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="7" selection-start-line="6" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/ReenterLock_A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronize/EventStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronize/eventstorage/MyEventStorageTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/blocking_queue/MyBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3002">
-          <caret line="158" column="25" selection-start-line="158" selection-start-column="25" selection-end-line="158" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/blocking_queue/MyBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronize/EventStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/futrue/CallableTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/blocking_queue/MyBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronize/EventStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/blocking_queue/MyBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronize/EventStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/futrue/CallableTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronize/EventStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronize/eventstorage/MyEventStorageTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/blocking_queue/MyBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronizer/BaseBoundedBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronizer/BufferFullException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronizer/BufferEmptyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/synchronizer/SleepyBoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -1126,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="115" column="42" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/atomics/AtomicReferenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1140,45 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/InterruptedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/ReenterLock_A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="25" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1196,57 +809,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/TestCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20083">
-          <caret line="1122" column="35" selection-start-line="1122" selection-start-column="35" selection-end-line="1122" selection-end-column="35" />
-          <folding>
-            <element signature="e#36709#36710#0" expanded="true" />
-            <element signature="e#36767#36768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6270">
-          <caret line="368" column="32" selection-start-line="368" selection-start-column="32" selection-end-line="368" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3629">
           <caret line="230" column="39" selection-start-line="230" selection-start-column="13" selection-end-line="230" selection-end-column="39" />
-          <folding>
-            <element signature="e#5229#5230#0" expanded="true" />
-            <element signature="e#5268#5269#0" expanded="true" />
-            <element signature="e#5391#5392#0" expanded="true" />
-            <element signature="e#5448#5449#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,6 +823,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://JAVA/java.util.concurrent.locks.AbstractQueuedSynchronizer">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1264,7 +847,7 @@
           <OriginalElement>java.util.concurrent.locks.AbstractQueuedSynchronizer</OriginalElement>
           <nodes>
             <node x="66.5" y="158.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
-            <node x="42.0" y="87.0">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
+            <node x="0.0" y="79.0">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
             <node x="123.5" y="0.0">java.io.Serializable</node>
           </nodes>
           <notes />
@@ -1290,7 +873,152 @@
               <point x="-29.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-362.5" y="-131.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-362.0" y="-131.0" />
+          <SelectedNodes>
+            <node>java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.locks.ReentrantLock.NonfairSync">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.locks.ReentrantLock.NonfairSync</OriginalElement>
+          <nodes>
+            <node x="66.5" y="158.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+            <node x="142.5" y="237.0">java.util.concurrent.locks.ReentrantLock.Sync</node>
+            <node x="0.0" y="79.0">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
+            <node x="119.5" y="316.0">java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
+            <node x="123.5" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.util.concurrent.locks.AbstractOwnableSynchronizer">
+              <point x="-57.5" y="-14.5" />
+              <point x="124.0" y="133.0" />
+              <point x="117.5" y="133.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.io.Serializable">
+              <point x="57.5" y="-14.5" />
+              <point x="239.0" y="133.0" />
+              <point x="245.5" y="133.0" />
+              <point x="245.5" y="54.0" />
+              <point x="210.5" y="54.0" />
+              <point x="29.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock.Sync">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.AbstractOwnableSynchronizer" target="java.io.Serializable">
+              <point x="0.0" y="-14.5" />
+              <point x="117.5" y="54.0" />
+              <point x="152.5" y="54.0" />
+              <point x="-29.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-362.0" y="-52.0" />
+          <SelectedNodes>
+            <node>java.io.Serializable</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="437" column="13" selection-start-line="437" selection-start-column="13" selection-end-line="437" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="171" column="23" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="267" column="23" selection-start-line="267" selection-start-column="23" selection-end-line="267" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11723">
+          <caret line="663" column="34" selection-start-line="663" selection-start-column="34" selection-end-line="663" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4161">
+          <caret line="264" column="24" selection-start-line="264" selection-start-column="19" selection-end-line="264" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3021">
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.locks.ReentrantLock">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.locks.ReentrantLock</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.concurrent.locks.Lock</node>
+            <node x="" y="">java.util.concurrent.locks.ReentrantLock</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="107.0" y="54.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1304,17 +1032,11 @@
           <ID>JAVA</ID>
           <OriginalElement>java.util.concurrent.locks.ReentrantLock.FairSync</OriginalElement>
           <nodes>
-            <node x="-395.0" y="-80.0">java.util.concurrent.CountDownLatch</node>
-            <node x="84.28999999999999" y="316.0">java.util.concurrent.locks.ReentrantLock.FairSync</node>
-            <node x="19.289999999999964" y="158.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
-            <node x="200.0" y="390.0">java.util.concurrent.CyclicBarrier</node>
-            <node x="402.5" y="79.0">java.util.concurrent.locks.ReentrantLock</node>
-            <node x="10.5" y="79.0">java.util.concurrent.Semaphore</node>
-            <node x="95.28999999999999" y="237.0">java.util.concurrent.locks.ReentrantLock.Sync</node>
-            <node x="559.5" y="79.0">java.util.concurrent.locks.ReentrantReadWriteLock</node>
-            <node x="147.5" y="79.0">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
-            <node x="639.5" y="0.0">java.util.concurrent.locks.ReadWriteLock</node>
-            <node x="207.0" y="0.0">java.io.Serializable</node>
+            <node x="131.5" y="316.0">java.util.concurrent.locks.ReentrantLock.FairSync</node>
+            <node x="66.5" y="158.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+            <node x="142.5" y="237.0">java.util.concurrent.locks.ReentrantLock.Sync</node>
+            <node x="0.0" y="79.0">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
+            <node x="123.5" y="0.0">java.io.Serializable</node>
           </nodes>
           <notes />
           <edges>
@@ -1322,52 +1044,121 @@
               <point x="0.0" y="-14.5" />
               <point x="0.0" y="14.5" />
             </edge>
-            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock" target="java.util.concurrent.locks.ReadWriteLock">
-              <point x="50.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
             <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.util.concurrent.locks.AbstractOwnableSynchronizer">
-              <point x="57.5" y="-14.5" />
-              <point x="191.78999999999996" y="133.0" />
-              <point x="265.0" y="133.0" />
+              <point x="-57.5" y="-14.5" />
+              <point x="124.0" y="133.0" />
+              <point x="117.5" y="133.0" />
               <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock" target="java.io.Serializable">
-              <point x="-50.0" y="-14.5" />
-              <point x="609.5" y="49.0" />
-              <point x="311.40000000000003" y="49.0" />
-              <point x="46.400000000000034" y="14.5" />
-            </edge>
-            <edge source="java.util.concurrent.Semaphore" target="java.io.Serializable">
-              <point x="0.0" y="-14.5" />
-              <point x="69.0" y="59.0" />
-              <point x="241.8" y="59.0" />
-              <point x="-23.19999999999999" y="14.5" />
             </edge>
             <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.io.Serializable">
-              <point x="-57.5" y="-14.5" />
-              <point x="76.78999999999996" y="133.0" />
-              <point x="0.0" y="133.0" />
-              <point x="0.0" y="49.0" />
-              <point x="218.59999999999997" y="49.0" />
-              <point x="-46.400000000000006" y="14.5" />
+              <point x="57.5" y="-14.5" />
+              <point x="239.0" y="133.0" />
+              <point x="245.5" y="133.0" />
+              <point x="245.5" y="54.0" />
+              <point x="210.5" y="54.0" />
+              <point x="29.0" y="14.5" />
             </edge>
             <edge source="java.util.concurrent.locks.AbstractOwnableSynchronizer" target="java.io.Serializable">
               <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.util.concurrent.locks.ReentrantLock" target="java.io.Serializable">
-              <point x="0.0" y="-14.5" />
-              <point x="471.0" y="59.0" />
-              <point x="288.2" y="59.0" />
-              <point x="23.200000000000017" y="14.5" />
+              <point x="117.5" y="54.0" />
+              <point x="152.5" y="54.0" />
+              <point x="-29.0" y="14.5" />
             </edge>
             <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock.Sync">
               <point x="0.0" y="-14.5" />
               <point x="0.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-362.5" y="-52.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-164.0" y="85.0" />
+          <SelectedNodes>
+            <node>java.util.concurrent.locks.ReentrantLock.FairSync</node>
+            <node>java.io.Serializable</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12749">
+          <caret line="726" column="30" selection-start-line="726" selection-start-column="17" selection-end-line="726" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.ArrayBlockingQueue">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.ArrayBlockingQueue</OriginalElement>
+          <nodes>
+            <node x="119.5" y="316.0">java.util.concurrent.ArrayBlockingQueue</node>
+            <node x="321.75" y="158.0">java.util.AbstractCollection</node>
+            <node x="260.34375" y="79.0">java.util.Collection</node>
+            <node x="297.0" y="237.0">java.util.AbstractQueue</node>
+            <node x="136.0" y="237.0">java.util.concurrent.BlockingQueue</node>
+            <node x="184.5" y="158.0">java.util.Queue</node>
+            <node x="268.34375" y="0.0">java.lang.Iterable</node>
+            <node x="0.0" y="237.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.AbstractQueue" target="java.util.AbstractCollection">
+              <point x="35.25" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.AbstractQueue">
+              <point x="58.0" y="-14.5" />
+              <point x="264.5" y="291.0" />
+              <point x="367.5" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.io.Serializable">
+              <point x="-58.0" y="-14.5" />
+              <point x="148.5" y="291.0" />
+              <point x="58.0" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.BlockingQueue" target="java.util.Queue">
+              <point x="0.0" y="-14.5" />
+              <point x="-22.0" y="14.5" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-14.5" />
+              <point x="402.75" y="133.0" />
+              <point x="342.09375" y="133.0" />
+              <point x="27.25" y="14.5" />
+            </edge>
+            <edge source="java.util.Queue" target="java.util.Collection">
+              <point x="0.0" y="-14.5" />
+              <point x="228.5" y="133.0" />
+              <point x="287.59375" y="133.0" />
+              <point x="-27.25" y="14.5" />
+            </edge>
+            <edge source="java.util.AbstractQueue" target="java.util.Queue">
+              <point x="-35.25" y="-14.5" />
+              <point x="332.25" y="212.0" />
+              <point x="250.5" y="212.0" />
+              <point x="22.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-309.0" y="-52.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1375,35 +1166,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/blocking_queue/ArrayBlockingQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="219" column="26" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="26" />
-          <folding>
-            <element signature="e#5562#5563#0" expanded="true" />
-            <element signature="e#5614#5615#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#6907#6908#0" expanded="true" />
-            <element signature="e#8176#8177#0" expanded="true" />
-            <element signature="e#8216#8217#0" expanded="true" />
-            <element signature="e#8451#8452#0" expanded="true" />
-            <element signature="e#8515#8516#0" expanded="true" />
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-            <element signature="e#15850#15851#0" expanded="true" />
-            <element signature="e#15881#15882#0" expanded="true" />
-            <element signature="e#17535#17536#0" expanded="true" />
-            <element signature="e#17577#17578#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="185" column="5" lean-forward="true" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/blocking_queue/MyBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="1325" column="12" selection-start-line="1325" selection-start-column="8" selection-end-line="1325" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="1987" column="36" lean-forward="true" selection-start-line="1987" selection-start-column="36" selection-end-line="1987" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2164">
-          <caret line="404" column="50" lean-forward="true" selection-start-line="404" selection-start-column="50" selection-end-line="404" selection-end-column="50" />
+        <state relative-caret-position="109">
+          <caret line="486" column="8" lean-forward="true" selection-start-line="486" selection-start-column="8" selection-end-line="486" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#22675#22676#0" expanded="true" />
+            <element signature="e#22703#22704#0" expanded="true" />
             <element signature="e#22933#22934#0" expanded="true" />
             <element signature="e#22965#22966#0" expanded="true" />
             <element signature="e#32644#32645#0" expanded="true" />
@@ -1416,10 +1235,199 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestLock.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/TestDeadLock4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.ConcurrentLinkedQueue">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.ConcurrentLinkedQueue</OriginalElement>
+          <nodes>
+            <node x="90.25" y="158.0">java.util.AbstractCollection</node>
+            <node x="190.296875" y="79.0">java.util.Collection</node>
+            <node x="136.0" y="237.0">java.util.AbstractQueue</node>
+            <node x="272.25" y="158.0">java.util.Queue</node>
+            <node x="198.296875" y="0.0">java.lang.Iterable</node>
+            <node x="0.0" y="237.0">java.io.Serializable</node>
+            <node x="107.5" y="316.0">java.util.concurrent.ConcurrentLinkedQueue</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.AbstractQueue" target="java.util.AbstractCollection">
+              <point x="-35.25" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.ConcurrentLinkedQueue" target="java.util.Queue">
+              <point x="66.0" y="-14.5" />
+              <point x="272.5" y="291.0" />
+              <point x="338.25" y="291.0" />
+              <point x="22.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.ConcurrentLinkedQueue" target="java.io.Serializable">
+              <point x="-66.0" y="-14.5" />
+              <point x="140.5" y="291.0" />
+              <point x="58.0" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-14.5" />
+              <point x="171.25" y="133.0" />
+              <point x="217.546875" y="133.0" />
+              <point x="-27.25" y="14.5" />
+            </edge>
+            <edge source="java.util.Queue" target="java.util.Collection">
+              <point x="0.0" y="-14.5" />
+              <point x="316.25" y="133.0" />
+              <point x="272.046875" y="133.0" />
+              <point x="27.25" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.ConcurrentLinkedQueue" target="java.util.AbstractQueue">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.AbstractQueue" target="java.util.Queue">
+              <point x="35.25" y="-14.5" />
+              <point x="241.75" y="212.0" />
+              <point x="294.25" y="212.0" />
+              <point x="-22.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-371.0" y="-2.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/queue/ConcurrentLinkedQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/ReenterLock_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/reentrantlock/NoFairLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/TestCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4636">
+          <caret line="295" column="4" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
+          <folding>
+            <element signature="e#8178#8179#0" expanded="true" />
+            <element signature="e#8264#8265#0" expanded="true" />
+            <element signature="e#10037#10038#0" expanded="true" />
+            <element signature="e#10084#10085#0" expanded="true" />
+            <element signature="e#11364#11365#0" expanded="true" />
+            <element signature="e#11395#11396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4256">
+          <caret line="263" column="27" selection-start-line="263" selection-start-column="27" selection-end-line="263" selection-end-column="27" />
+          <folding>
+            <element signature="e#8972#8973#0" expanded="true" />
+            <element signature="e#9006#9007#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/lock_free/LockFreeConcurrentStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding>
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/takumiCX/concurrency/lock_free/LockFreeConcurrentQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

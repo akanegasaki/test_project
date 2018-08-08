@@ -1,5 +1,6 @@
 package com.takumiCX.concurrency.reentrantlock;
 
+import java.util.LinkedHashMap;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -22,6 +23,11 @@ public class ReenterLock_A implements Runnable {
                 lock.unlock();//finally代码块里的不管是否异常都会执行
             }
         }
+
+        LinkedHashMap<String, String> map = new LinkedHashMap<>();
+
+        map.put("1","2");
+        map.get("2");
     }
     public static void main(String[] args) throws InterruptedException {
         Thread th1=new Thread(new ReenterLock_A());

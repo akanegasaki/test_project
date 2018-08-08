@@ -5,14 +5,13 @@
       <entry name="!?*.java" />
       <entry name="!?*.form" />
       <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
       <entry name="!?*.scala" />
       <entry name="!?*.flex" />
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
     <bytecodeTargetLevel>
-      <module name="test-concurrent" target="1.7" />
+      <module name="test-concurrent" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
